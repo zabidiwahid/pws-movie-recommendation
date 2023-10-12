@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "81526b71-0f5a-4d40-9aed-fd9686ef929a",
+		"name": "pws-movie-recommendation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/movie-recommendation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"David Lee\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/movie-recommendation",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie-recommendation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
